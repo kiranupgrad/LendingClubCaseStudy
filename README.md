@@ -20,14 +20,15 @@
 > Assess the data and identify the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilise this knowledge for its portfolio and risk assessment.
 
 ## About Dataset
-It contains the complete loan data for all loans issued through the time period 2007 t0 2011. If the loan requests from applicants were turned down by the company, then there will be no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
+It contains the complete loan data for all loans issued through the time period 2007 to 2011. If the loan requests from applicants were turned down by the company, then there will be no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
--
+- These are the key variable which influences default status -int_rate, term, grade, subgrade, annual_inc, purpose and addr_state
+- These are the correlated variables in the dataset –int_rate & grade,  installment & funded_amnt_inv
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
